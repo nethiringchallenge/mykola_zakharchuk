@@ -32,11 +32,14 @@ namespace talk_to_me
                 return;
             }
             
-            if (!parser.GetArgValue("-f", out filePath) || string.IsNullOrEmpty(filePath))
+            if (!parser.GetArgValue("-f", out filePath) || string.IsNullOrEmpty(filePath) || !File.Exists(Path.GetFullPath(filePath)))
             {
-                string path = Path.GetFullPath(filePath);
-                Console.WriteLine(Resources.BadFile);
-                return;
+                string path = Path.GetFullPath(filePath).Replace("\\", "\\");
+                if (!File.Exists(path))
+                {
+                    Console.WriteLine(Resources.BadFile);
+                    return;
+                }
             }
 
             filePath = Path.GetFullPath(filePath);
