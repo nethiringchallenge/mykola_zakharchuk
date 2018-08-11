@@ -1,0 +1,9 @@
+D:\chat_bot\talk_to_me\bin\Debug\talk_to_me.exe.config
+D:\chat_bot\talk_to_me\bin\Debug\talk_to_me.exe
+D:\chat_bot\talk_to_me\bin\Debug\talk_to_me.pdb
+D:\chat_bot\talk_to_me\obj\Debug\talk_to_me.csprojAssemblyReference.cache
+D:\chat_bot\talk_to_me\obj\Debug\talk_to_me.csproj.CoreCompileInputs.cache
+D:\chat_bot\talk_to_me\obj\Debug\talk_to_me.exe
+D:\chat_bot\talk_to_me\obj\Debug\talk_to_me.pdb
+D:\chat_bot\talk_to_me\obj\Debug\talk_to_me.Properties.Resources.resources
+D:\chat_bot\talk_to_me\obj\Debug\talk_to_me.csproj.GenerateResource.cache
